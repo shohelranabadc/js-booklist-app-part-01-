@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container div input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.container div {
+    margin-top: 10px
+}
+
+.btn{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background-color: tomato;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #e62c0bb7;
+    color: #0e0d0db4
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+}
